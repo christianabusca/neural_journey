@@ -10,28 +10,65 @@
 
 ### *The Scholar Who Traversed Data to Become the AI Overlord*
 
-**A gamified learning progress tracker inspired by Murim cultivation webtoons.**  
-Track your journey from Data Initiate to AI Overlord through 7 phases of ascension.
+**My personal gamified learning progress tracker inspired by Murim cultivation webtoons.**  
+Following my journey from Data Initiate to AI Overlord through 7 phases of ascension.
 
-[🚀 Live Demo](#) · [📖 Documentation](#features) · [🐛 Report Bug](#) · [✨ Request Feature](#)
+[🚀 View My Progress](https://neural-journey.vercel.app/)
 
 </div>
 
 ---
 
-## 🌌 The Journey Awaits
+## 🌌 My Learning Journey
 
-> *"Cultivation is endless. Each dataset you tame, each model you forge, is a step closer to true ascension."*
+> *"Cultivation is endless. Each dataset I tame, each model I forge, is a step closer to true ascension."*
 
-Every cultivator begins with fragile foundations before unlocking deeper realms. **Neural Journey** transforms your learning path into an epic saga, where courses become cultivation techniques and completion is your path to enlightenment.
+This is my personal progress tracker for mastering data science and AI. **Neural Journey** transforms my learning path into an epic saga, where courses become cultivation techniques and completion is my path to enlightenment.
 
 ```
-🌱 Data Initiate → 📊 Data Alchemist → 🤖 AI Awakened → 🔬 Neural Ascendant
-→ ☁️ Cloud Sovereign → 🏗️ Data Forge Master → 🎯 AI Overlord
+🌱 Foundation Building → 📊 Data Analysis & Manipulation → 🤖 AI/ML Foundations → 🔬 Advanced Machine Learning
+→ ☁️ Cloud & Infrastructure → 🏗️ Data Engineering & Big Data → 🎯 Specialization & Leadership
 ```
+
+**Cultivation Realms:**
+- Phase 1: **Data Initiate** - Foundation Building (8-12 weeks)
+- Phase 2: **Data Alchemist** - Data Analysis & Manipulation (8-10 weeks)
+- Phase 3: **AI Awakened** - AI/ML Foundations (8-10 weeks)
+- Phase 4: **Neural Ascendant** - Advanced Machine Learning (10-12 weeks)
+- Phase 5: **Cloud Sovereign** - Cloud & Infrastructure (6-8 weeks)
+- Phase 6: **Data Forge Master** - Data Engineering & Big Data (6-8 weeks)
+- Phase 7: **AI Overlord** - Specialization & Leadership (8-10 weeks)
 
 ---
 
+## ✨ Features
+
+### 🎮 **Personal Progress Tracking**
+- **7 Cultivation Phases** - My roadmap from Foundation Building to AI Overlord
+- **55+ Skill Tracks** - Organized learning paths from DataCamp
+- **400+ Courses** - Complete curriculum tracking
+- **Visual Progress** - Real-time statistics and progress bars
+- **Completion History** - Automatic date stamping via database triggers
+
+### 🔐 **Private Admin Access**
+- **Public View Mode** - Share my progress with anyone
+- **Admin Edit Mode** - Password-protected for my updates only
+- **Click-to-Complete** - Toggle course completion with a single click
+- **Real-time Sync** - Instant updates to my Supabase database
+
+### 🎨 **Modern UI/UX**
+- **Responsive Design** - Beautiful on desktop, tablet, and mobile
+- **Dark Theme** - Purple-gradient cultivation aesthetic
+- **Smooth Animations** - Transition effects and progress animations
+- **Expandable Phases** - Click to reveal skill tracks and courses
+
+### ⚡ **Performance**
+- **Fast Loading** - Optimized API calls
+- **Lightweight** - Minimal dependencies
+- **Cloud-Hosted** - Deployed on Vercel for global CDN
+- **Database Triggers** - Automated data updates
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -69,75 +106,56 @@ Every cultivator begins with fragile foundations before unlocking deeper realms.
 
 ---
 
-## 🚀 Quick Start
+## 🚀 About This Project
 
-### Prerequisites
+This is a **personal learning tracker** I built to gamify my data science and AI education journey. Instead of just checking off courses in a spreadsheet, I wanted something more engaging and visually appealing.
 
-```bash
-node >= 14.0.0
-npm >= 6.0.0
-```
+### Why I Built This
 
+- 📚 **Track my DataCamp progress** across 55+ skill tracks
+- 🎮 **Gamify my learning** with cultivation-themed progression
+- 🌐 **Share my journey** with a public-facing portfolio piece
+- 💻 **Practice full-stack development** with React and Supabase
+- 🎨 **Learn modern web technologies** while building something useful
 
-## 📖 Usage
+## 📖 How It Works
 
-### For Viewers (Public Access)
+### Public View
+- Anyone can visit my site and see my learning progress
+- Browse through the 7 cultivation phases
+- Click on phases to expand and see skill tracks
+- View completed courses (marked with ✓)
+- See my overall progress percentage
 
-1. Visit the deployed site
-2. Browse through the 7 cultivation phases
-3. Click on any phase to expand and see skill tracks
-4. View completed courses (marked with ✓)
-5. Track overall progress percentage
-
-### For Admins (Edit Mode)
-
+### Admin Mode (Me Only)
 1. Click the **"Admin Login"** button
-2. Enter your admin password
+2. Enter my admin password
 3. Click any course to toggle completion status
-4. Completion date is automatically set
-5. Database updates in real-time
-6. Click **"Refresh"** to reload latest data
+4. Completion date is automatically set by database trigger
+5. Changes sync instantly to Supabase
+6. Refresh button to reload latest data
 
 
+## 🎯 Learning Roadmap
 
-## 🏗️ Project Structure
+Following the Neural Ascension curriculum:
 
-```
-neural_journey/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── App.js                 # Main component
-│   ├── index.js               # Entry point
-│   ├── index.css              # Global styles
-│   └── components/            # Future components
-├── .env.local                 # Environment variables (not in repo)
-├── package.json               # Dependencies
-├── tailwind.config.js         # Tailwind configuration
-├── postcss.config.js          # PostCSS configuration
-└── README.md                  # You are here!
-```
+### ✅ Completed Phases
+- None yet - Just started my journey!
 
----
+### 🔄 Current Phase
+- **Phase 1: Foundation Building** (In Progress)
+  - Data Literacy Professional ✓
+  - Understanding Data Topics ✓
+  - Python Programming Fundamentals (In Progress)
 
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+### 📋 Upcoming Phases
+- Phase 2: Data Analysis & Manipulation
+- Phase 3: AI/ML Foundations
+- Phase 4: Advanced Machine Learning
+- Phase 5: Cloud & Infrastructure
+- Phase 6: Data Engineering & Big Data
+- Phase 7: Specialization & Leadership
 
 ## 🙏 Acknowledgments
 
@@ -147,15 +165,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Murim Webtoons** - For the cultivation concept inspiration
 - **Open Source Community** - For the incredible tools and libraries
 
----
-
-## 📬 Contact
-
-**Christian Abusca** - [@christianabusca](https://www.linkedin.com/in/christianabusca/)
-
-Project Link: [https://github.com/yourusername/neural_journey](https://github.com/yourusername/neural_journey)
-
----
 
 <div align="center">
 
