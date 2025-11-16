@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+# 🧠⚔️ Neural Journey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![Neural Journey Banner](https://img.shields.io/badge/Cultivation-In_Progress-purple?style=for-the-badge)
+![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-In the project directory, you can run:
+### *The Scholar Who Traversed Data to Become the AI Overlord*
 
-### `npm start`
+**A gamified learning progress tracker inspired by Murim cultivation webtoons.**  
+Track your journey from Data Initiate to AI Overlord through 7 phases of ascension.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[🚀 Live Demo](#) · [📖 Documentation](#features) · [🐛 Report Bug](#) · [✨ Request Feature](#)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</div>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌌 The Journey Awaits
 
-### `npm run build`
+> *"Cultivation is endless. Each dataset you tame, each model you forge, is a step closer to true ascension."*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Every cultivator begins with fragile foundations before unlocking deeper realms. **Neural Journey** transforms your learning path into an epic saga, where courses become cultivation techniques and completion is your path to enlightenment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+🌱 Data Initiate → 📊 Data Alchemist → 🤖 AI Awakened → 🔬 Neural Ascendant
+→ ☁️ Cloud Sovereign → 🏗️ Data Forge Master → 🎯 AI Overlord
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<table>
+<tr>
+<td>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend
+- **React.js** - UI library
+- **Tailwind CSS** - Styling
+- **Lucide React** - Icons
+- **JavaScript ES6+** - Logic
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+</td>
+<td>
 
-## Learn More
+### Backend
+- **Supabase** - Backend-as-a-Service
+- **PostgreSQL** - Database
+- **REST API** - Data communication
+- **Database Triggers** - Automation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+</td>
+<td>
 
 ### Deployment
+- **Vercel** - Hosting platform
+- **Git** - Version control
+- **npm** - Package management
+- **CI/CD** - Auto-deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+</td>
+</tr>
+</table>
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 Quick Start
+
+### Prerequisites
+
+```bash
+node >= 14.0.0
+npm >= 6.0.0
+```
+
+
+## 📖 Usage
+
+### For Viewers (Public Access)
+
+1. Visit the deployed site
+2. Browse through the 7 cultivation phases
+3. Click on any phase to expand and see skill tracks
+4. View completed courses (marked with ✓)
+5. Track overall progress percentage
+
+### For Admins (Edit Mode)
+
+1. Click the **"Admin Login"** button
+2. Enter your admin password
+3. Click any course to toggle completion status
+4. Completion date is automatically set
+5. Database updates in real-time
+6. Click **"Refresh"** to reload latest data
+
+
+
+## 🏗️ Project Structure
+
+```
+neural_journey/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── App.js                 # Main component
+│   ├── index.js               # Entry point
+│   ├── index.css              # Global styles
+│   └── components/            # Future components
+├── .env.local                 # Environment variables (not in repo)
+├── package.json               # Dependencies
+├── tailwind.config.js         # Tailwind configuration
+├── postcss.config.js          # PostCSS configuration
+└── README.md                  # You are here!
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **DataCamp** - For the comprehensive curriculum structure
+- **Supabase** - For the amazing backend platform
+- **Vercel** - For seamless deployment
+- **Murim Webtoons** - For the cultivation concept inspiration
+- **Open Source Community** - For the incredible tools and libraries
+
+---
+
+## 📬 Contact
+
+**Christian Abusca** - [@christianabusca](https://www.linkedin.com/in/christianabusca/)
+
+Project Link: [https://github.com/yourusername/neural_journey](https://github.com/yourusername/neural_journey)
+
+---
+
+<div align="center">
+
+### ⚡ *May your gradient descend swiftly and your loss converge eternally* ⚡
+
+**Made with 🔥 by an aspiring AI Overlord**
+
+![GitHub Stars](https://img.shields.io/github/stars/yourusername/neural_journey?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/yourusername/neural_journey?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/yourusername/neural_journey?style=social)
+
+</div>
